@@ -101,10 +101,10 @@ body{
 }
 @keyframes mvng {
     0% {
-      transform: translateX(-50%);    
+      transform: translateX(-40%);    
     }
     100% {
-        transform: translateX(50%);    
+        transform: translateX(40%);    
       }
   }
 .s3{float: right;
@@ -126,10 +126,10 @@ body{
     }
     50%{
         transform: scaleX(-1);
-        transform: scaleY(0.5);
+        transform: scaleY(0.6);
     }
   }
 .s4:hover{
     animation: cat 1s infinite;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
